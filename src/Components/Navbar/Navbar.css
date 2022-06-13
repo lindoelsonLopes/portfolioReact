@@ -1,0 +1,13 @@
+.nav_wrapper {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+}
+
+.nav_left {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  gap: 2rem;
+}
+
