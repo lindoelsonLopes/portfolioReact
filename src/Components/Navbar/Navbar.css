@@ -52,5 +52,7 @@
 }
 
 .btn:hover {
-    background: linear-gradient(180deg, #1b3b6f 26.71%, #1c7293 99.36%);
+  background: linear-gradient(180deg, #1b3b6f 26.71%, #1c7293 99.36%);
+  letter-spacing: 2px;
+  transition: 0.5s;
 }

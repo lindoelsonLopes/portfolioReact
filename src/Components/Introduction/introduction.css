@@ -54,10 +54,13 @@
   
 .i_btn:hover {
   background: linear-gradient(180deg, #1b3b6f 26.71%, #1c7293 99.36%);
+  letter-spacing: 2px;
+  transition: 0.5s;
 }
 
 .intro_social {
   display: flex;
+  margin-top: 3rem;
   transition: 0.5s;
   transform-origin: right;
 }
@@ -85,17 +88,31 @@ ul {
   border-radius: 50%;
 }
   
-  .intro_social li:hover a {
-    background: #1b3b6f ;
-  }
+.intro_social li:hover a {
+  background: #1b3b6f ;
+}
   
-  .intro_social li a img {
-    filter: invert(0);
-    transform: scale(1);
-  }
+.intro_social li a img {
+  filter: invert(0);
+  transform: scale(1);
+}
   
-  .intro_social li:hover a img {
-   filter: invert(1);
+.intro_social li:hover a img {
+  filter: invert(1);
+} 
+
+.intro_right {
+  display: flex;
+  justify-content: center;
+}
+
+.intro_right>* {
+  position: absolute;
+  z-index: 1;
   }
+
+.intro_right img {
+  width: 200px;
+}
   
   

@@ -2,6 +2,8 @@
 {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root 
@@ -10,7 +12,7 @@
     --dark_cornflower_blue: #1b3b6f;
     --black: #242d49;
     --cadet_gray: #9eb3c2;
-    --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+    --boxShadow: 0px 19px 60px rgb(0 0 1 / 8%);
     --blue_sapphire: #1c7293;
 }
 

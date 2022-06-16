@@ -3,6 +3,7 @@ import './introduction.css';
 import Github from '../images/github.png';
 import Linkedin from '../images/linkedin.png';
 import Instagram from '../images/instagram.png';
+import Self from '../images/self.png';
 
 const Introduction = () => {
   return (
@@ -22,8 +23,9 @@ const Introduction = () => {
       </ul> 
         </div>
       </div>
-      <div className="introduction_right">
-        Eu sou o lado direito
+      <div className="intro_right">
+        <img src={Self} alt="" />
+        
       </div>
     </div>
   )
