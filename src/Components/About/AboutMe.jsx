@@ -49,7 +49,7 @@ const AboutMe = () => {
             >
               <span aria-hidden="true">&times;</span>
             </button>
-            <p>Tenho experiência na area financeira.</p>
+            <p>Em construção..</p>
           </Modal>
 
           <Modal ref={modalFormation}>
@@ -60,7 +60,7 @@ const AboutMe = () => {
             >
               <span aria-hidden="true">&times;</span>
             </button>
-            <p>Sou formado em Ciências Contábeis.</p>
+            <p>Em construção..</p>
           </Modal>
 
           <Modal ref={modalProject}>
@@ -71,7 +71,7 @@ const AboutMe = () => {
             >
               <span aria-hidden="true">&times;</span>
             </button>
-            <p>Esses são alguns projetos que eu mais me orgulho.</p>
+            <p>Em construção.</p>
           </Modal>
         </div>
         
