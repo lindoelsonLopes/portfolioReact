@@ -10,7 +10,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Introduction />
-      <AboutMe />
+      <AboutMe
+        title='AboutMe'
+        id='about'
+      />
       <Experience />
     </div>
   );
